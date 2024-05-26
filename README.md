@@ -6,6 +6,9 @@
 # ¿Como se instala?
 
 - **Poner el script en alguna carpeta**
+- **Entrar en el Config.lua del esx_ambulancejob**
+- **Cambiar el tiempo de respawn y el sitio al que vosotros queréis para la purga (cuando acabéis dejarlo como lo teniais)**
+- **Poner el script en alguna carpeta**
 - **Ir al server.cfg**
 - **En el cfg poner : ensure xr_purga**
 - **Dentro del juego poner: /startPurge y ya estaría todo**
