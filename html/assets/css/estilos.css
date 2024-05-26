@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: none;
+    /*display: block;*/
+    /*background-color: blue;*/
+    /*background-color: chartreuse;*/
+    /*background-image: url('assets/img/xr_web.png');*/
+    /*background-image: url(../img/bg_test.jpg);
+    background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    height: 100%;
+}
+
+.contenedor {
+    opacity: 0.80;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    background: #383838;
+    background: linear-gradient(270deg, #383838 25%, #383838 61%, rgb(0, 0, 0) 100%);
+    height: 8vh;
+    width: 25vw;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    transform: translateX(-50%);
+    /*overflow-y: hidden;*/
+}
+
+#vacio {
+    background-image: url(../img/xr_web.png);
+    background-size: 100% 80%;
+    background-position: left;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 30%;
+}
+
+#kills {
+    /*background-color: chocolate;*/
+    height: 25%;
+    min-height: 1em;
+    text-align: center;
+}
+
+#mensajes {
+    width: 70%;
+    /*background-color: crimson;*/
+    padding-top: 1%;
+    height: 74%;
+    font-size: 1.5vh;
+    color: white;
+    overflow-y: hidden;
+    max-height: 74%;
+}
+
+#mensajes p {
+    float: left;
+}
+
+#kills {
+    width: 70%;
+    color: white;
+    font-size: 2vh;
+}
+
+
+
+#vacio, #kills, #mensajes {
+    float: left;
+    overflow: hidden;
+}
